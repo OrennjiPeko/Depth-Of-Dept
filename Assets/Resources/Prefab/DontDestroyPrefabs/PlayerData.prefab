@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6533543477928761833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6533543477928761834}
+  - component: {fileID: 6533543477928761835}
+  - component: {fileID: 6533543477928761832}
+  - component: {fileID: 4259794366257618098}
+  - component: {fileID: -5038160348024500757}
+  m_Layer: 0
+  m_Name: PlayerData
+  m_TagString: PlayerData
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6533543477928761834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533543477928761833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.945812, y: -3.0870886, z: 0.631271}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6533543477928761835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533543477928761833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a463605f3ba23274780fc9f27d2c3c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 0
+  mainexp: 0
+  skillpoints: 0
+  Gold: 0
+  Health: 0
+  baseDamage: 0
+  AOEDamage: 0
+  StaminaMax: 0
+  MultiAttckX: 0
+  HealthRegen: 0
+  StaminaRegen: 0
+  HealthRegenRank: 0
+  CriticalDamage: 0
+  AttackSpeedRank: 0
+  StunChance: 0
+  MultiattackChance: 0
+  DodgeChance: 0
+  AbilityDamage: 0
+  AOEChance: 0
+  HealthBonus: 0
+  CriticalChance: 0
+  BlockChance: 0
+  CooldownReduction: 0
+  GoldBonus: 0
+  DamageBonus: 0
+  Movespeed: 0
+  EXPBonus: 0
+  DamageReflect: 0
+  RarityIncrease: 0
+  Floor: 0
+  MaxHealth: 0
+  ItemDroprate: 0
+  EXPtoNext: 0
+  Armour: 0
+  MinionCount: 0
+  NoPlayer: 0
+  NoFloor: 0
+  Player: {fileID: 0}
+  FloorMan: {fileID: 0}
+  ChasingEnemy: 0
+--- !u!114 &6533543477928761832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533543477928761833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c659bc20160fe41b526b9f5201ed7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryEnabled: 0
+  inventory: {fileID: 0}
+  InGameUI: {fileID: 0}
+  SlotHolder: {fileID: 0}
+  SkillTooltip: {fileID: 0}
+  UpgradeTooltip: {fileID: 0}
+  allSlots: 0
+  Slot: []
+  Tooltip: {fileID: 0}
+  WeaponEquippedCheck: 0
+  HeadArmourEquippedCheck: 0
+  ChestArmourEquippedCheck: 0
+  LegsArmourEquippedCheck: 0
+  GlovesEquippedCheck: 0
+  BootsEquippedCheck: 0
+  WeaponEquipped: {fileID: 0}
+  HeadArmourEquipped: {fileID: 0}
+  ChestArmourEquipped: {fileID: 0}
+  LegsArmourEquipped: {fileID: 0}
+  GlovesEquipped: {fileID: 0}
+  BootsEquipped: {fileID: 0}
+  CollectedItems: []
+  SkillMenu: {fileID: 0}
+  SkillMenuActivated: 0
+--- !u!114 &4259794366257618098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533543477928761833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ef4f9e03d14d0459e1c4e6158166c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponsCollectedID: 
+  HeadArmourCollectedID: 
+  ChestArmourCollectedID: 
+  GlovesCollectedId: 
+  LegsArmourCollectedId: 
+  BootsCollectedID: 
+  WeaponCollectedRank: 
+  HeadArmourCollectedRank: 
+  ChestArmourCollectedRank: 
+  GlovesCollectedRank: 
+  LegsArmourCollectedRank: 
+  BootsArmourCollectdRank: 
+  WeaponsCollectedRarity: []
+  HeadArmourCollectedRarity: []
+  ChestArmourCollectedRarity: []
+  GlovesCollectedRarity: []
+  LegsArmourCollectedRarity: []
+  BootsCollectedRarity: []
+  BlankItem: {fileID: 6843036894092705149, guid: 57337b00eb3455f4085f794f8b144bff,
+    type: 3}
+--- !u!114 &-5038160348024500757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533543477928761833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fc483df95e5664f93d01561735d96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RelicinventoryEnabled: 0
+  relicInventory: {fileID: 0}
+  relicslotholder: {fileID: 0}
+  Relicskilltooltip: {fileID: 0}
+  InGameUI: {fileID: 0}
+  allrelicslots: 0
+  relicslots: []
+  RelicBeginnerEquippedcheck: 0
+  RelicBattleHardenEquippedcheck: 0
+  RelicExpertEquippedcheck: 0
+  RelicBeginnerEquipped: {fileID: 0}
+  RelicBattleHardenEquipped: {fileID: 0}
+  RelicExpertEquipped: {fileID: 0}
+  CollectedRelics: []

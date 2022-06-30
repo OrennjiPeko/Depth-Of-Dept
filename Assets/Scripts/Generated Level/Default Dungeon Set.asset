@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a34333cd7a402c49b99f387952ffd6c, type: 3}
+  m_Name: Default Dungeon Set
+  m_EditorClassIdentifier: 
+  name: Default
+  spawns:
+  - {fileID: 8033099209888682141, guid: 8ecfa311f816f194eac502d75d9f6ae2, type: 3}
+  doors:
+  - {fileID: 11476880, guid: 2e19caa3de7304112952c9d091d67bc7, type: 3}
+  roomTemplates:
+  - {fileID: 11496048, guid: a445b1f204ed24ea0ac0fb43e1ce86a9, type: 3}
+  - {fileID: 11496048, guid: a445b1f204ed24ea0ac0fb43e1ce86a9, type: 3}
+  - {fileID: 11499640, guid: df98e0c56e1da428dba558eb36b93d7f, type: 3}
+  - {fileID: 11439352, guid: a579964b199ab42c5bc52333d6725cbc, type: 3}
+  - {fileID: 11439352, guid: a579964b199ab42c5bc52333d6725cbc, type: 3}
+  - {fileID: 11442848, guid: f23d688e5d685456e85a6f6f3b16c0fe, type: 3}
+  - {fileID: 11439352, guid: a579964b199ab42c5bc52333d6725cbc, type: 3}
+  - {fileID: 11422804, guid: 99e618aed580d4b2f9576d96ae838ffd, type: 3}
+  - {fileID: 11499640, guid: df98e0c56e1da428dba558eb36b93d7f, type: 3}
+  - {fileID: 11422804, guid: 99e618aed580d4b2f9576d96ae838ffd, type: 3}
+  - {fileID: 11417102, guid: 94288f0890bc94f128db5ddf13f48216, type: 3}
+  - {fileID: 82962815949461567, guid: 5ec8324770a369b43b72fe7b2d63958c, type: 3}

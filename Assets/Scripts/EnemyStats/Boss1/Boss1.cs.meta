@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c6bfa008cb5bb88499c3d46c18708b8c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Barrier1: {instanceID: 0}
+  - Barrier2: {instanceID: 0}
+  - Barrier3: {instanceID: 0}
+  - Barrier4: {instanceID: 0}
+  - GoldPrefab: {fileID: 6894878191951545961, guid: 3d6e854204e33904caa1497c92a1012c,
+      type: 3}
+  - Projectile: {instanceID: 0}
+  - Player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

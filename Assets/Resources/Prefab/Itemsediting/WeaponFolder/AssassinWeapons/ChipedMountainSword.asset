@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96f923daed20c44eaed546f91d57f60, type: 3}
+  m_Name: ChipedMountainSword
+  m_EditorClassIdentifier: 
+  Type: Weapon
+  WeaponName: Chiped Mountain Sword
+  ArmourClass: 1
+  Itemlevel: 5
+  ID: 27
+  Description: Chiped Sword
+  icon: {fileID: 21300000, guid: 8a6f5b9e382ce614186ffa462cd391c9, type: 3}
+  Damage: 9
+  BlockChanceBonus: 0
+  MultiAttackBonus: 10
+  AbilityDamage: 0
+  Weaponlevel: 0
+  Class: Assassin
+  WeaponNeededGold: 24000
+  WeaponMaxGearLevel: 0
+  HPBonus: 0
+  MovementSpeedBonus: 0
+  StunChanceBonus: 14
+  DodgeBonus: 0.1
+  CritDamageBonus: 14
+  StaminaRegenBonus: 0
+  CooldownReduction: 0.1
+  AOEchanceBonus: 0
+  CritChance: 0
+  GoldRushActive: 0
+  BulwarkParryActive: 0
+  BerserkActive: 0
+  MultiCasterActive: 0
+  LuckyLooterActive: 0
+  SwiftActivated: 0
+  LegendaryTrait: 
+  SecondLegendaryTrait: 
+  ItemLoadedRarity: Legendary

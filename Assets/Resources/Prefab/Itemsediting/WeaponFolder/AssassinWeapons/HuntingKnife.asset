@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96f923daed20c44eaed546f91d57f60, type: 3}
+  m_Name: HuntingKnife
+  m_EditorClassIdentifier: 
+  Type: Weapon
+  WeaponName: Hunting Knife
+  ArmourClass: 1
+  Itemlevel: 0
+  ID: 23
+  Description: This is a Knife
+  icon: {fileID: 21300000, guid: 10e053569c4bf4f4894c304ce6a8bd1c, type: 3}
+  Damage: 8
+  BlockChanceBonus: 0
+  MultiAttackBonus: 3
+  AbilityDamage: 0
+  Weaponlevel: 0
+  Class: Assassin
+  WeaponNeededGold: 0
+  WeaponMaxGearLevel: 0
+  HPBonus: 0
+  MovementSpeedBonus: 0
+  StunChanceBonus: 0
+  DodgeBonus: 0
+  CritDamageBonus: 0
+  StaminaRegenBonus: 0
+  CooldownReduction: 0
+  AOEchanceBonus: 0
+  CritChance: 0
+  GoldRushActive: 0
+  BulwarkParryActive: 0
+  BerserkActive: 0
+  MultiCasterActive: 0
+  LuckyLooterActive: 0
+  SwiftActivated: 0
+  LegendaryTrait: 
+  SecondLegendaryTrait: 
+  ItemLoadedRarity: 
